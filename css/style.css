@@ -1,0 +1,29 @@
+body{
+  background-image: url("../img/foods5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about{
+  margin-left:200px;
+  margin-right:200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #01F7FA;
+
+}
+.words{
+  color: grey;
+  font-size: 20px;
+}
+.share1{
+  height: 200px;
+  width: 250px;
+  border-radius: 50%;
+  transform: translate(20px, 15%);
+}
+.share2{
+  height: 200px;
+  width: 250px;
+  border-radius: 50%;
+  transform: translate(20px, 0%);
+}
