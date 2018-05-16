@@ -41,11 +41,11 @@
 #img21{
   float: left;
   list-style-type: none;
-  width: 1300px;
+  width: 1350px;
 }
 #img0{
   height: 600px;
-  width: 1300px;
+  width: 1350px;
   overflow: hidden;
 }
 #img2{
@@ -54,6 +54,7 @@
   height: 600px;
   margin: 0;
   padding: 0; 
+  border-radius: 10px;
 }
 .top{
   padding-top: 75px;
@@ -61,17 +62,182 @@
 .flip{
   position: absolute;
   width:400px; height:300px;
-  background:#5DADE2;
+  background-color: #FBFCFC;
   animation:flipAround 8s infinite;
-  transform-origin:right;
-  top: 5px;
+  top: 80px;
+   border-radius: 5px;
+   left: 30px;
 }
 @keyframes flipAround {
   25% { transform-origin:right; animation-mode:forwards; transform:rotateY(-180deg); }
   
 }
 .flip p{
-  color: white;
+  color: #17202A;
   text-align: center;
   font-size: 20px;
+  font-weight: bolder;
+}
+ #toggle {
+  top: 400px;
+  position: absolute;
+    width: 300px;
+    height: 100px;
+    background-color:#FBFCFC;
+    border-radius: 5px;
+    left: 30px;
+  }
+  #toggle h3{
+    text-align: center;
+    padding-top: 20px;
+    color: #17202A;
+    font-weight: bolder;
+  }
+ #scroll a {
+  padding-top: 80px;
+}
+#scroll a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 3px solid #2E4053;
+  border-bottom: 3px solid #2E4053;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb07 2s infinite;
+  animation: sdb07 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+#scroll a span:nth-of-type(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+#scroll a span:nth-of-type(2) {
+  top: 16px;
+  -webkit-animation-delay: .15s;
+  animation-delay: .15s;
+}
+#scroll a span:nth-of-type(3) {
+  top: 32px;
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+}
+@-webkit-keyframes sdb07 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb07 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+#scroll{
+  position: absolute;
+  left: 50%;
+  top: 570px;
+  text-align: center;
+}
+#scrolld{
+  padding-top: 50px;
+  text-align: center;
+}
+#scrolld button{
+ background-color: white;
+}
+.sty{
+  background-color: #34495E;
+  padding-bottom: 0px;
+}
+.search{
+  position: absolute;
+  left: 79%;
+}
+.icon{
+  width: 100px;
+  padding-top: 100px;
+}
+.icons{
+  background-image: url('imgs/photo-1498837167922-ddd27525d352.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+.info{
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 100px;
+  border-left: 1px solid white
+}
+#body{
+  display: none;
+}
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
 }
