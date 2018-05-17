@@ -1,0 +1,12 @@
+x-star-rating {
+  font-family: "Ionicons";
+  font-size: 20px;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.fa-star{
+  color: yellow;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #333;
+  }
