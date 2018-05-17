@@ -1,0 +1,33 @@
+body{
+  background-color: rgba(4,4,4,.4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/foods1.jpg");
+  background-blend-mode: darken;
+
+}
+.about{
+  margin-left:200px;
+  margin-right:200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: grey;
+
+}
+.words{
+  color: black;
+  font-size: 20px;
+  font-family: 'Actor', sans-serif;
+}
+.share1{
+  height: 200px;
+  width: 250px;
+  border-radius: 50%;
+  transform: translate(20px, 15%);
+}
+.share2{
+  height: 200px;
+  width: 250px;
+  border-radius: 50%;
+  transform: translate(20px, 0%);
+}
