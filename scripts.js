@@ -17,7 +17,7 @@ function startSlider(){
 			});
 
 		
-	}, 3000);
+	}, 5000);
 }
 
 function stopslider(){
@@ -71,6 +71,20 @@ function search() {
       }
    }  
 }
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+$("#open").click(function(){
+  openNav();
+})
+$("#close").click(function(){
+  closeNav();
+})
 
 
 })	
