@@ -1,19 +1,23 @@
 body{
-  background-image: url("../img/foods5.jpg");
+  background-color: rgba(4,4,4,.4);
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url("../img/foods1.jpg");
+  background-blend-mode: darken;
+
 }
 .about{
   margin-left:200px;
   margin-right:200px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #01F7FA;
+  background-color: grey;
 
 }
 .words{
-  color: grey;
+  color: black;
   font-size: 20px;
+  font-family: 'Actor', sans-serif;
 }
 .share1{
   height: 200px;
