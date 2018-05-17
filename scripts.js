@@ -86,6 +86,30 @@ $("#close").click(function(){
   closeNav();
 })
 
+  $(".star-1").hover(function(){
+    $(".star-1").addClass("fas star-1");
+});
+$(".star-2").hover(function(){
+  $(".star-2").addClass("fas star-2");
+});
+$(".star-3").hover(function(){
+  $(".star-3").addClass("fas star-3");
+});
+$(".star-4").hover(function(){
+  $(".star-4").addClass("fas star-4");
+});
+$(".star-5").hover(function(){
+  $(".star-5").addClass("fas star-5");
+});
+$(".star-6").hover(function(){
+  $(".star-6").addClass("fas star-6");
+});
+$(".star-7").hover(function(){
+  $(".star-7").addClass("fas star-6");
+});
+$(".star-8").hover(function(){
+  $(".star-8").addClass("fas star-6");
+});
 
 })	
 
