@@ -177,22 +177,22 @@
   padding-top: 100px;
 }
 .icons{
-  background-image: url('imgs/photo-1498837167922-ddd27525d352.jpeg');
+  background-color:#F4D03F ;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   
-}
-.icon img:hover{
-background-color: yellow;
 }
 .info{
   color: white;
   font-size: 17px;
   font-weight: bold;
   text-align: center;
-  padding-top: 100px;
-  border-left: 1px solid white
+  padding-top: 80px;
+  
+}
+.info2{
+  border-left: 1px solid white;
 }
 #body{
   display: none;
@@ -302,3 +302,8 @@ x-star-rating {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #333;
   }
+  .icon i{
+    font-size: 50px;
+    color: white;
+  }
+  
