@@ -12,7 +12,13 @@ What is Food sharing about? This is a website where people register and sign in 
 
 ## specs
 
-
+-The website has a home page which the user sees once he clicks the deployed site link
+-The user can navigate to the food Gallery page by clicking a link in the home page
+-The user can veiw the food gallery
+-The user can search any food type
+-The user can go back to the home page
+-The user can veiw the About page
+-The user can scroll through the food sharing page by the click of a button
 
 ## Setup/Installation Requirements
 
